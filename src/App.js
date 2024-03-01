@@ -22,7 +22,7 @@ function App() {
 
     // Trigger the API POST request with user inputs
     axios
-      .post("http://localhost:5001/addAuction", requestData)
+      .post("https://be-chitfund-1.onrender.com/addAuction", requestData)
       .then((response) => {
         console.log("Auction data added successfully:", response.data);
       })
